@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FluentNHibernate.Mapping;
+using MakingChange.Data.Entities;
+
+namespace MakingChange.Data.Mappings
+{
+    public class TaskCandidateMap : ClassMap<TaskCandidate>
+    {
+        public TaskCandidateMap()
+        {
+            Id(x => x.Id);
+            Map(x => x.Chosen);
+            References(x => x.Candidate);
+            References(x => x.Task);
+        }
+    }
+}

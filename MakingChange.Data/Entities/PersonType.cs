@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MakingChange.Data
+namespace MakingChange.Data.Entities
 {
-    public class Project
+    public enum PersonType
     {
+        Member,
+        Volunteer
     }
 }

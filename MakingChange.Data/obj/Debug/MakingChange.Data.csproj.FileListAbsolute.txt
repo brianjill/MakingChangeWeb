@@ -1,0 +1,13 @@
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\MakingChange.Data.dll
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\MakingChange.Data.pdb
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\FluentNHibernate.dll
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\Iesi.Collections.dll
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\NHibernate.dll
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\FluentNHibernate.xml
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\Iesi.Collections.xml
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\NHibernate.xml
+D:\GitHub\MakingChange\MakingChange.Data\obj\Debug\MakingChange.Data.csprojResolveAssemblyReference.cache
+D:\GitHub\MakingChange\MakingChange.Data\obj\Debug\MakingChange.Data.dll
+D:\GitHub\MakingChange\MakingChange.Data\obj\Debug\MakingChange.Data.pdb
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\MakingChange.Data.dll.config
+D:\GitHub\MakingChange\MakingChange.Data\bin\Debug\System.Data.SQLite.DLL

@@ -9,10 +9,11 @@ namespace MakingChange.Data
 {
     public static class OcDataRepository
     {
+        private static DataFactory _df;
         public static void Create(string dbFile)
         {
-            var df = new DataFactory(dbFile, true);
-            using (var sf = df.CreateSessionFactory())
+            _df = new DataFactory(dbFile, true);
+            using (var sf = _df.CreateSessionFactory())
             {
                 sf.Close();
             }
@@ -20,8 +21,7 @@ namespace MakingChange.Data
 
         public static void AddPerson(string dbFile, Person person)
         {
-            var df = new DataFactory(dbFile, true);
-            using (var sf = df.CreateSessionFactory())
+            using (var sf = _df.CreateSessionFactory())
             using (var session = sf.OpenSession())
             using (var trans = session.BeginTransaction())
             {
@@ -32,8 +32,7 @@ namespace MakingChange.Data
 
         public static void AddProject(string dbFile, Project project)
         {
-            var df = new DataFactory(dbFile, true);
-            using (var sf = df.CreateSessionFactory())
+            using (var sf = _df.CreateSessionFactory())
             using (var session = sf.OpenSession())
             using (var trans = session.BeginTransaction())
             {

@@ -39,3 +39,5 @@ D:\GitHub\MakingChange\MakingChange\obj\Debug\MakingChange.pdb
 D:\GitHub\MakingChange\MakingChange\bin\MakingChange.Data.dll
 D:\GitHub\MakingChange\MakingChange\bin\MakingChange.Data.pdb
 D:\GitHub\MakingChange\MakingChange\bin\System.Data.SQLite.DLL
+D:\GitHub\MakingChange\MakingChange\bin\Breeze.ContextProvider.dll
+D:\GitHub\MakingChange\MakingChange\bin\Breeze.ContextProvider.NH.dll

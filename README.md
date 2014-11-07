@@ -1,5 +1,2 @@
-NHibernate code first
-AngularJS
-Breeze
-ASP.Net MVC
-Bootstrap
+Fluent NHibernate code first <br/>
+ASP.Net MVC<br/>

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using FluentNHibernate.Mapping;
 using MakingChange.Data.Entities;
 
@@ -14,8 +13,10 @@ namespace MakingChange.Data.Mappings
         {
             Id(x => x.Id);
             Map(x => x.Chosen);
-            References(x => x.Candidate);
-            References(x => x.Task);
+            //References(x => x.Candidate);
+            //References(x => x.Task);
+            HasOne<Person>(x => x.Candidate).PropertyRef(x => x.ShortName).ForeignKey("Person");
+            HasOne<Task>(x => x.Task).PropertyRef(x => x.Name).ForeignKey("Task");
         }
     }
 }

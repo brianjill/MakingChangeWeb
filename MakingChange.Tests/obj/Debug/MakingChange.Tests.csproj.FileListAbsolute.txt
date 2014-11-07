@@ -27,3 +27,14 @@ D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\System.Web.WebPages.Razor.xm
 D:\GitHub\MakingChange\MakingChange.Tests\obj\Debug\MakingChange.Tests.csprojResolveAssemblyReference.cache
 D:\GitHub\MakingChange\MakingChange.Tests\obj\Debug\MakingChange.Tests.dll
 D:\GitHub\MakingChange\MakingChange.Tests\obj\Debug\MakingChange.Tests.pdb
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\NHibernate.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\Breeze.ContextProvider.NH.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\MakingChange.Data.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\Iesi.Collections.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\Breeze.ContextProvider.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\FluentNHibernate.dll
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\NHibernate.xml
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\MakingChange.Data.pdb
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\Iesi.Collections.xml
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\FluentNHibernate.xml
+D:\GitHub\MakingChange\MakingChange.Tests\bin\Debug\WebActivator.dll

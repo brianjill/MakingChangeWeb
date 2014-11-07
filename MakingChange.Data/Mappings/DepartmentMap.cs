@@ -15,8 +15,10 @@ namespace MakingChange.Data.Mappings
             Id(x => x.Id);
             Map(x => x.Name);
 
-            References(x => x.Leader);
-            References(x => x.Project);
+            //References(x => x.Leader);
+            //References(x => x.Project);
+            HasOne<Person>(x => x.Leader).PropertyRef(x => x.ShortName).ForeignKey("Person");
+            HasOne<Project>(x => x.Project).PropertyRef(x => x.Name).ForeignKey("Project");
 
             HasMany(x => x.TaskList)
                 .Cascade.All()

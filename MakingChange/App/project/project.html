@@ -1,1 +1,15 @@
-﻿<div>project</div>
+﻿<div>
+    <h3>Projects</h3>
+    
+    <table class="table-striped table-bordered table-condensed">
+        <thead>
+        <th>Project ID</th>
+        <th>Name</th>
+        
+        </thead>
+        <tr ng-repeat="p in projects">
+            <td>{{p.Id}}</td>
+            <td>{{p.Name}}</td>
+        </tr>
+    </table>
+</div>

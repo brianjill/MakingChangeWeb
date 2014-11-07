@@ -15,7 +15,8 @@ namespace MakingChange.Data.Mappings
             Map(x => x.Status);
             Map(x => x.PercentComplete);
             Map(x => x.Date);
-            References(x => x.Task);
+            //References(x => x.Task);
+            HasOne<Task>(x => x.Task).PropertyRef(x => x.Name).ForeignKey("Task");
         }
     }
 }

@@ -16,8 +16,10 @@ namespace MakingChange.Data.Mappings
             Map(x => x.Description);
             Map(x => x.Points);
 
-            References(x => x.Department);
-            References(x => x.Responsible);
+            //References(x => x.Department);
+            //References(x => x.Responsible);
+            HasOne<Person>(x => x.Responsible).PropertyRef(x => x.ShortName).ForeignKey("Person");
+            HasOne<Department>(x => x.Department).PropertyRef(x => x.Name).ForeignKey("Department");
 
             HasMany(x => x.Candidates)
                 .Cascade.All()
